@@ -1,4 +1,4 @@
 export type User = {
-    image: string,
-    username: string,
-}
+    image: string;
+    username: string;
+};

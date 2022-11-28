@@ -1,4 +1,4 @@
-import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface CurrentUserState {
     username: string;
@@ -7,14 +7,13 @@ interface CurrentUserState {
 
 const initialState: CurrentUserState = {
     username: 'juliusomo',
-    image: "https://randomuser.me/api/portraits/women/33.jpg"
+    image: 'https://randomuser.me/api/portraits/women/33.jpg',
 };
 
 export const currentUserSlice = createSlice({
     name: 'currentUser',
     initialState,
-    reducers: {
-    }
-})
+    reducers: {},
+});
 
-export default currentUserSlice.reducer
+export default currentUserSlice.reducer;

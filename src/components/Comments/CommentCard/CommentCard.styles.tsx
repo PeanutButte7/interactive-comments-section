@@ -10,5 +10,5 @@ export const commentCardStyles = createStyles((theme) => ({
     },
     replyButton: {
         color: theme.colors.brand,
-    }
+    },
 }));

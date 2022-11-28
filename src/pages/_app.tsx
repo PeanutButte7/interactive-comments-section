@@ -1,12 +1,12 @@
 import { Layout } from 'components/Layout';
-import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app';
 
 function MyApp({ Component }: AppProps) {
     return (
-      <Layout>
-        <Component/>
-      </Layout>
-    )
+        <Layout>
+            <Component />
+        </Layout>
+    );
 }
 
-export default MyApp
+export default MyApp;

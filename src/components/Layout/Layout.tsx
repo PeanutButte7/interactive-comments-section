@@ -1,5 +1,5 @@
-import { Container } from "@mantine/core";
-import {ReactNode} from 'react';
+import { Container } from '@mantine/core';
+import { ReactNode } from 'react';
 
 interface LayoutProps {
     children: ReactNode;
@@ -10,5 +10,5 @@ export function Layout({ children }: LayoutProps) {
         <Container size='sm'>
             <main>{children}</main>
         </Container>
-    )
+    );
 }

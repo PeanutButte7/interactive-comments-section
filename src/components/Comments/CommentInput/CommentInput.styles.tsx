@@ -9,5 +9,5 @@ export const commentInputStyles = createStyles((theme) => ({
         display: 'flex',
         flexDirection: 'row',
         gap: theme.spacing.xl,
-    }
+    },
 }));

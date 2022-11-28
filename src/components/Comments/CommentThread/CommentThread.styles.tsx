@@ -6,5 +6,5 @@ export const commentThreadStyles = createStyles((theme) => ({
         paddingLeft: 30,
         borderLeft: '2px solid',
         borderColor: theme.colors.brand[1],
-    }
+    },
 }));
